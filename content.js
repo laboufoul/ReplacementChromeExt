@@ -9,5 +9,4 @@ function replaceTextInNode(node) {
 }
 replaceTextInNode(document.body);
 
-
 //amazon.com/1 to amazon.com/2; take static url followed by an id and switch it out; 
