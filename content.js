@@ -18,4 +18,4 @@ function changeUrl(url){//url argument represents product link
   }
 }
 
-changeUrl(originalUrl);
+changeUrl(originalUrl); 
