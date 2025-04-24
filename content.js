@@ -18,4 +18,20 @@ function changeUrl(url){//url argument represents product link
   }
 }
 
+// Added by Aidan:
+// Redirects from a specific affiliate link to apricot
+// Example URL is http://www.amazon.com/dp/ASIN/ref=nosim?tag=YOURASSOCIATEID
+// function replaceAffiliateLink() {
+//   const apricotAffiliateLink = "https://www.amazon.com?&linkCode=ll2&tag=apricot07-20&linkId=fcce49cc2af4a1fff274a6a60cb2d083&language=en_US&ref_=as_li_ss_tl";
+//   const otherAffiliateLink = "tag=YOURASSOCIATEID";
+//   const url = new URL('', window.location.href);
+//   if (url.hostname === 'www.amazon.com') {
+//     if (window.location.href.includes(otherAffiliateLink)) {
+//       window.location.href = apricotAffiliateLink;
+//     }
+//   } 
+// } 
+
+
 changeUrl(originalUrl); 
+// replaceAffiliateLink();
